@@ -1,0 +1,32 @@
+{
+  "kind": "storage-frontier",
+  "periods": {
+    "path": "periods.jsonl",
+    "bytes": 384,
+    "sha256": "79ad400129b42ef61b2176b53a8e94ff695a31c4279aa5f47dffd2cea2299bbd",
+    "rows": 2
+  },
+  "battery": {
+    "capacity": "-1",
+    "initial_soc": "0",
+    "terminal_soc": "0",
+    "charge_efficiency": "1",
+    "discharge_efficiency": "1",
+    "hourly_retention": "1",
+    "throughput_fee": "0"
+  },
+  "demand_fees": {
+    "jan": "0"
+  },
+  "emission_caps": [
+    "2",
+    "3",
+    "4"
+  ],
+  "scenario_id": "synthetic-day",
+  "solver": {
+    "max_steps": 10000,
+    "relative_gap": "0",
+    "time_limit_seconds": 30
+  }
+}
