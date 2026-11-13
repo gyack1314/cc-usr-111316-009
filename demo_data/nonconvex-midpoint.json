@@ -1,0 +1,32 @@
+{
+  "kind": "storage-frontier",
+  "scenario_id": "nonconvex-midpoint",
+  "battery": {
+    "capacity": "2",
+    "initial_soc": "1",
+    "terminal_soc": "0",
+    "charge_efficiency": "1",
+    "discharge_efficiency": "1",
+    "hourly_retention": "1",
+    "throughput_fee": "0"
+  },
+  "demand_fees": {
+    "a": "0"
+  },
+  "emission_caps": [
+    "2",
+    "3",
+    "4"
+  ],
+  "solver": {
+    "max_steps": 10000,
+    "relative_gap": "0",
+    "time_limit_seconds": 30
+  },
+  "periods": {
+    "path": "nonconvex-midpoint.jsonl",
+    "bytes": 422,
+    "sha256": "15f2bf3efd36e09434bee06847bddffa7b76fe21a559bd14f8e381da11eeb43e",
+    "rows": 2
+  }
+}

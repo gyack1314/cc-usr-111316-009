@@ -1,0 +1,32 @@
+{
+  "kind": "storage-frontier",
+  "scenario_id": "split-two",
+  "battery": {
+    "capacity": "2",
+    "initial_soc": "0",
+    "terminal_soc": "0",
+    "charge_efficiency": "1/2",
+    "discharge_efficiency": "1/2",
+    "hourly_retention": "1",
+    "throughput_fee": "0"
+  },
+  "demand_fees": {
+    "p1": "0"
+  },
+  "emission_caps": [
+    "2",
+    "3",
+    "4"
+  ],
+  "solver": {
+    "max_steps": 10000,
+    "relative_gap": "0",
+    "time_limit_seconds": 30
+  },
+  "periods": {
+    "path": "split-two.jsonl",
+    "bytes": 428,
+    "sha256": "5cec484ee4d4d3966477dcf74531ea80e4c7eaaf0ea80a68f788db85ac84718b",
+    "rows": 2
+  }
+}

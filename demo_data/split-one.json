@@ -1,0 +1,32 @@
+{
+  "kind": "storage-frontier",
+  "scenario_id": "split-one",
+  "battery": {
+    "capacity": "2",
+    "initial_soc": "0",
+    "terminal_soc": "0",
+    "charge_efficiency": "1/2",
+    "discharge_efficiency": "1/2",
+    "hourly_retention": "1",
+    "throughput_fee": "0"
+  },
+  "demand_fees": {
+    "p1": "0"
+  },
+  "emission_caps": [
+    "2",
+    "3",
+    "4"
+  ],
+  "solver": {
+    "max_steps": 10000,
+    "relative_gap": "0",
+    "time_limit_seconds": 30
+  },
+  "periods": {
+    "path": "split-one.jsonl",
+    "bytes": 213,
+    "sha256": "232a8d2824cb1e8f1e117a28083dcb640f11708b361f753abf2290b024e021cb",
+    "rows": 1
+  }
+}

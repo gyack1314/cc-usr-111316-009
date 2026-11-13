@@ -1,0 +1,33 @@
+{
+  "kind": "storage-frontier",
+  "scenario_id": "roundtrip-loss",
+  "battery": {
+    "capacity": "2",
+    "initial_soc": "0",
+    "terminal_soc": "0",
+    "charge_efficiency": "1/2",
+    "discharge_efficiency": "1/2",
+    "hourly_retention": "1",
+    "throughput_fee": "0"
+  },
+  "demand_fees": {
+    "p1": "0"
+  },
+  "emission_caps": [
+    "4",
+    "6",
+    "8",
+    "10"
+  ],
+  "solver": {
+    "max_steps": 10000,
+    "relative_gap": "0",
+    "time_limit_seconds": 30
+  },
+  "periods": {
+    "path": "roundtrip-loss.jsonl",
+    "bytes": 424,
+    "sha256": "03f2fff28ffe913dff4855dfb25a01bbfabe647e60b85c193b8a216c9c9635a3",
+    "rows": 2
+  }
+}

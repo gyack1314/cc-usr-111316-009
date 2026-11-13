@@ -1,0 +1,1 @@
+{"id": "h1", "start": "2026-01-01T00:00:00Z", "hours": "2", "load": "1", "pv": "0", "import_limit": "4", "charge_limit": "2", "discharge_limit": "2", "price": "-2", "emission_factor": "1", "billing_period": "p1"}

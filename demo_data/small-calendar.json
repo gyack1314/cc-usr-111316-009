@@ -1,0 +1,32 @@
+{
+  "kind": "storage-frontier",
+  "scenario_id": "small-calendar",
+  "battery": {
+    "capacity": "1",
+    "initial_soc": "0",
+    "terminal_soc": "0",
+    "charge_efficiency": "1",
+    "discharge_efficiency": "1",
+    "hourly_retention": "1",
+    "throughput_fee": "0"
+  },
+  "demand_fees": {
+    "p1": "0"
+  },
+  "emission_caps": [
+    "6",
+    "7",
+    "8"
+  ],
+  "solver": {
+    "max_steps": 10000,
+    "relative_gap": "0",
+    "time_limit_seconds": 30
+  },
+  "periods": {
+    "path": "small-calendar.jsonl",
+    "bytes": 636,
+    "sha256": "3b7ab94e7aa4ead8b76bd0580813a04e5f7c9176268eb66c697284340fdd2ea8",
+    "rows": 3
+  }
+}

@@ -1,0 +1,2 @@
+{"id": "t1", "start": "2026-01-01T00:00:00Z", "hours": "1", "load": "1", "pv": "0", "import_limit": "4", "charge_limit": "3", "discharge_limit": "1", "price": "0", "emission_factor": "3", "billing_period": "p1"}
+{"id": "t2", "start": "2026-01-01T01:00:00Z", "hours": "1", "load": "1", "pv": "0", "import_limit": "4", "charge_limit": "3", "discharge_limit": "1", "price": "4", "emission_factor": "1", "billing_period": "p1"}
